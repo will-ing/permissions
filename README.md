@@ -1,7 +1,7 @@
 # Permissions
 
-1. `dcu` - docker compose up
-2. `dcd` - docker compose down
+1. docker compose up
+2. docker compose down
 3. `docker-compose help` - see commands
 4. Change Postgres in settings.py
 
@@ -55,3 +55,8 @@ DATABASES = {
             return obj.author == request.user
     ```
 
+9. ```py
+    # in setting.py
+    ALLOWED_HOSTS = ['0.0.0.0']
+    ```
+    
